@@ -1,27 +1,19 @@
 # ListadoPersona02
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
+El anterior proyecto solo era trabajo de comunicacion entre componentes (Padre -> Hijo , Hijo -> Padre)
 
-## Development server
+## Se trabjara en este proyecto con Servicios
+Se trabajara con un servicio en general donde estara el array y el metodo para agregar
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Tendra dos componentes uno sera listado de personas y otro sera formulario
 
-## Code scaffolding
+Se trabaja con ambos componentes y el metodo de padre -> hijo para el listado de persona
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Se trabaja con [(ngMOdel)] -> para la obtencion de datos del formulario ya activado en capp.module
 
-## Build
+Para una gestion mas facil de los datos del formulario
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Se esta trabajando con el modo strict -> false
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para no inicializar algunos elementos ya que me resulta mas facil apra este proyecto en particular
